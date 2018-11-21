@@ -15,4 +15,5 @@ I use four Mijia Bluetooth temp/hum sensors in my setup. Munin generates values 
 
 ## Example
 ![Kindle Example](https://github.com/mreymann/kindle-display-munin/blob/master/example.png)
+
 The graphs show the changes over the last 3 hours. The gaps originate from crappy Bluetooth reception. :-(
