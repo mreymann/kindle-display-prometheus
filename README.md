@@ -1,5 +1,5 @@
-# kindle-display-munin :bar_chart:
-Display Munin Graphs on Amazon Kindle
+# kindle-display-prometheus :bar_chart:
+Display Prometheus Graphs on Amazon Kindle
 
 ## Intro
 
