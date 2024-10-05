@@ -7,7 +7,8 @@ For more information see Matthew Petroff's original idea at https://mpetroff.net
 
 ## Setup
 
-I use four Mijia Bluetooth temp/hum sensors in my setup. Munin generates values every 5 minutes, so I generate a new image every 4:
+I use six Mijia Bluetooth temp/hum sensors in my setup. Some are flashed with pvvx firmware.
+I generate a new picture every few minutes via cron: 
 
 ```
 */4 * * * * /home/pigpen/kindle/generate_kindle.sh > /dev/null 2>&1
@@ -16,4 +17,4 @@ I use four Mijia Bluetooth temp/hum sensors in my setup. Munin generates values 
 ## Example
 ![Kindle Example](https://github.com/mreymann/kindle-display-munin/blob/master/example.png)
 
-The graphs show the changes over the last 3 hours. The gaps originate from crappy Bluetooth reception. :-(
+The graphs show the changes over the last 3 hours.
