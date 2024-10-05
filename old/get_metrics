@@ -1,0 +1,41 @@
+#!/usr/bin/php
+<?php
+$sensors = [ 'bedroom', 'guestroom', 'livingroom', 'balcony', 'bathroom' ];
+$metrics = [ 'temperature', 'humidity' ];
+$base_url = 'http://grafana:9090/api/v1';
+
+$vals = get_last();
+var_dump( $vals );
+
+function get_last() {
+	global $sensors, $metrics, $base_url;
+	$vals = [];
+	foreach ( $sensors as $sensor ) {
+		foreach ( $metrics as $metric ) {
+			$url_latest = "$base_url/query?query=sensor_$metric{name=\"$sensor\"}";
+			#$url_latest = "$base_url/query?query=last_over_time(sensor_$metric{name=\"$sensor\"}[10m])";
+			$json = getJSONfromURL( $url_latest );
+			$aValues = $json["data"]["result"][0]["value"];
+			$ts = $aValues[0];
+			$date = gmdate( "Y-m-d\TH:i:s\Z", $ts );
+			$value = $aValues[1];
+			#echo "$sensor ($metric): date (UTC): $date, value: $value\n";
+			$vals["${sensor}_${metric}"] = $value;
+		}
+	}
+	return $vals;
+}
+
+function getJSONfromURL( $url ) {
+	#echo "URL: $url\n";
+	$result = file_get_contents( $url );
+	#echo "$result\n";
+	$json = (json_decode($result, true));
+	#var_dump( $json ); return;
+	if ( $json["status"] == "success") {
+		return $json;
+	}
+	else {
+		return false;
+	}
+}

@@ -1,0 +1,1277 @@
+Thu, 14 Jul 2022 11:12:01 +0200: STARTING ...
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle/shuttle-mijia-y1-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '55.7' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle/shuttle-mijia2-y1-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '50.8' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '53.7' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle/shuttle-mijia3-y1-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '47.8' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '58' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle/shuttle-mijia-y2-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '26.1' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle/shuttle-mijia2-y2-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '26.2' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '26.6' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle/shuttle-mijia3-y2-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '26.5' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Thu, 14 Jul 2022 11:12:01 +0200: Value '27.06' OK!
+Thu, 14 Jul 2022 11:12:01 +0200: DONE ...
+Thu, 14 Jul 2022 11:12:01 +0200: --------
+Tue, 05 Sep 2023 13:05:06 +0200: STARTING ...
+Tue, 05 Sep 2023 13:05:06 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:05:06 +0200: Value '54.7' OK!
+Tue, 05 Sep 2023 13:05:06 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:05:06 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:06 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:05:06 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:09 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:09 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:05:09 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:12 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:12 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:05:12 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:15 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:15 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:05:15 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:18 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:18 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:05:18 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:21 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:21 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:05:21 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:24 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:24 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:05:24 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:27 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:27 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:05:27 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:30 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:30 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:05:30 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:33 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:33 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:05:33 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:36 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:36 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:05:36 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:39 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:05:39 +0200: Value '51.8' OK!
+Tue, 05 Sep 2023 13:05:39 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:05:39 +0200: Value '46.5' OK!
+Tue, 05 Sep 2023 13:05:39 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:05:39 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:39 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:05:39 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:42 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:42 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:05:42 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:45 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:45 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:05:45 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:48 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:48 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:05:48 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:51 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:51 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:05:51 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:54 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:54 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:05:54 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:05:57 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:05:57 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:05:57 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:00 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:00 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:06:00 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:01 +0200: STARTING ...
+Tue, 05 Sep 2023 13:06:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:06:01 +0200: Value '55.3' OK!
+Tue, 05 Sep 2023 13:06:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:06:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:01 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:06:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:03 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:03 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:06:03 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:04 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:06:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:06 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:06 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:06:06 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:07 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:06:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:09 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:09 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:06:09 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:10 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:06:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:12 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:06:12 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:06:12 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:06:12 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:12 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:06:12 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:13 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:06:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:15 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:15 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:06:15 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:16 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:06:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:18 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:18 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:06:18 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:20 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:20 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:06:20 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:21 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:21 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:06:21 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:23 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:23 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:06:23 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:24 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:24 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:06:24 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:26 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:26 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:06:26 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:27 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:27 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:06:27 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:29 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:29 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:06:29 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:30 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:30 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:06:30 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:32 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:32 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:06:32 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:33 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:33 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:06:33 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:35 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:06:35 +0200: Value '51.8' OK!
+Tue, 05 Sep 2023 13:06:35 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:06:35 +0200: Value '46.7' OK!
+Tue, 05 Sep 2023 13:06:35 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:06:35 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:35 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:06:35 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:36 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:36 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:06:36 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:38 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:38 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:06:38 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:39 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:39 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:06:39 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:41 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:41 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:06:41 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:42 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:42 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:06:42 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:44 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:44 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:06:44 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:45 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:06:45 +0200: Value '24.3' OK!
+Tue, 05 Sep 2023 13:06:45 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:06:45 +0200: Value '24.1' OK!
+Tue, 05 Sep 2023 13:06:45 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:06:45 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:45 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:06:45 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:47 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:47 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:06:47 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:48 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:48 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:06:48 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:50 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:50 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:06:50 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:51 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:51 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:06:51 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:53 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:53 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:06:53 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:54 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:54 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:06:54 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:56 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:56 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:06:56 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:57 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:57 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:06:57 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:06:59 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:06:59 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:06:59 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:00 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:00 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:07:00 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:02 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:02 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:07:02 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:03 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:03 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:07:03 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:05 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:05 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:07:05 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:06 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:06 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:07:06 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:08 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:07:08 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:07:08 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:07:08 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:08 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:07:08 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:09 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:09 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:07:09 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:11 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:11 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:07:11 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:12 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:12 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:07:12 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:14 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:14 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:07:14 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:15 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:15 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:07:15 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:17 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:17 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:07:17 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:19 +0200: DONE ...
+Tue, 05 Sep 2023 13:07:19 +0200: --------
+Tue, 05 Sep 2023 13:07:20 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:20 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:07:20 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:23 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:23 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:07:23 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:26 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:26 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:07:26 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:29 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:29 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:07:29 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:32 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:32 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:07:32 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:35 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:35 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:07:35 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:38 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:38 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:07:38 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:41 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:07:41 +0200: Value '24.3' OK!
+Tue, 05 Sep 2023 13:07:41 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:07:41 +0200: Value '24.1' OK!
+Tue, 05 Sep 2023 13:07:41 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:07:41 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:41 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:07:41 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:44 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:44 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:07:44 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:47 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:47 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:07:47 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:50 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:50 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:07:50 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:53 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:53 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:07:53 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:56 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:56 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:07:56 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:07:59 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:07:59 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:07:59 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:08:02 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:08:02 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:08:02 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:08:05 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:08:05 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:08:05 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:08:08 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:08:08 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:08:08 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:08:11 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:08:11 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:08:11 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:08:14 +0200: DONE ...
+Tue, 05 Sep 2023 13:08:14 +0200: --------
+Tue, 05 Sep 2023 13:09:01 +0200: STARTING ...
+Tue, 05 Sep 2023 13:09:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:09:01 +0200: Value '55.3' OK!
+Tue, 05 Sep 2023 13:09:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:09:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:01 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:09:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:04 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:09:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:07 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:09:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:10 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:09:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:13 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:09:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:16 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:09:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:19 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:09:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:22 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:09:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:25 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:09:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:28 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:09:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:31 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:09:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:09:34 +0200: Value '51.8' OK!
+Tue, 05 Sep 2023 13:09:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:09:34 +0200: Value '46.7' OK!
+Tue, 05 Sep 2023 13:09:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:09:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:34 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:09:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:37 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:09:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:40 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:09:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:43 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:09:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:46 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:09:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:49 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:09:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:52 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:09:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:55 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:09:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:09:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:09:58 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:09:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:01 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:10:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:04 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:10:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:10:07 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:10:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:10:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:07 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:10:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:10 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:10:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:13 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:10:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:16 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:10:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:19 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:10:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:22 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:10:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:25 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:10:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:28 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:10:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:31 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:10:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:34 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:10:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:37 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:10:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:40 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:10:40 +0200: Value '24.4' OK!
+Tue, 05 Sep 2023 13:10:40 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:10:40 +0200: Value '24.1' OK!
+Tue, 05 Sep 2023 13:10:40 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:10:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:40 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:10:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:43 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:10:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:46 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:10:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:49 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:10:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:52 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:10:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:55 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:10:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:10:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:10:58 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:10:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:11:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:11:01 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:11:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:11:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:11:04 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:11:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:11:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:11:07 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:11:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:11:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:11:10 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:11:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:11:13 +0200: DONE ...
+Tue, 05 Sep 2023 13:11:13 +0200: --------
+Tue, 05 Sep 2023 13:12:01 +0200: STARTING ...
+Tue, 05 Sep 2023 13:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:12:01 +0200: Value '54.4' OK!
+Tue, 05 Sep 2023 13:12:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:12:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:01 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:12:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:04 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:12:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:07 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:12:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:10 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:12:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:13 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:12:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:16 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:12:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:19 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:12:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:22 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:12:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:25 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:12:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:28 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:12:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:31 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:12:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:12:34 +0200: Value '50.6' OK!
+Tue, 05 Sep 2023 13:12:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:12:34 +0200: Value '45.9' OK!
+Tue, 05 Sep 2023 13:12:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:12:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:34 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:12:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:37 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:12:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:40 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:12:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:43 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:12:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:46 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:12:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:49 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:12:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:52 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:12:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:55 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:12:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:12:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:12:58 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:12:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:01 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:13:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:04 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:13:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:13:07 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:13:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:13:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:07 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:13:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:10 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:13:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:13 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:13:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:16 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:13:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:19 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:13:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:22 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:13:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:25 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:13:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:28 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:13:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:31 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:13:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:34 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:13:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:37 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:13:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:40 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:13:40 +0200: Value '24.4' OK!
+Tue, 05 Sep 2023 13:13:40 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:13:40 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:13:40 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:13:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:40 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:13:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:43 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:13:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:46 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:13:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:49 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:13:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:52 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:13:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:55 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:13:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:13:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:13:58 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:13:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:14:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:14:01 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:14:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:14:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:14:04 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:14:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:14:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:14:07 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:14:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:14:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:14:10 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:14:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:14:14 +0200: DONE ...
+Tue, 05 Sep 2023 13:14:14 +0200: --------
+Tue, 05 Sep 2023 13:15:01 +0200: STARTING ...
+Tue, 05 Sep 2023 13:15:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:15:01 +0200: Value '54.4' OK!
+Tue, 05 Sep 2023 13:15:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:15:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:01 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:15:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:04 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:15:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:07 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:15:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:10 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:15:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:13 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:15:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:16 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:15:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:19 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:15:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:22 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:15:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:25 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:15:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:28 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:15:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:31 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:15:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:15:34 +0200: Value '50.5' OK!
+Tue, 05 Sep 2023 13:15:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:15:34 +0200: Value '45.9' OK!
+Tue, 05 Sep 2023 13:15:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:15:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:34 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:15:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:37 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:15:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:40 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:15:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:43 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:15:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:46 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:15:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:49 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:15:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:52 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:15:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:55 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:15:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:15:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:15:58 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:15:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:01 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:16:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:04 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:16:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:16:07 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:16:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:16:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:07 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:16:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:10 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:16:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:13 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:16:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:16 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:16:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:19 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:16:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:22 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:16:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:25 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:16:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:28 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:16:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:31 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:16:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:34 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:16:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:37 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:16:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:40 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:16:40 +0200: Value '24.4' OK!
+Tue, 05 Sep 2023 13:16:40 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:16:40 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:16:40 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:16:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:40 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:16:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:43 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:16:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:46 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:16:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:49 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:16:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:52 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:16:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:55 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:16:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:16:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:16:58 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:16:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:17:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:17:01 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:17:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:17:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:17:04 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:17:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:17:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:17:07 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:17:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:17:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:17:10 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:17:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:17:14 +0200: DONE ...
+Tue, 05 Sep 2023 13:17:14 +0200: --------
+Tue, 05 Sep 2023 13:18:01 +0200: STARTING ...
+Tue, 05 Sep 2023 13:18:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:18:01 +0200: Value '54.3' OK!
+Tue, 05 Sep 2023 13:18:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:18:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:01 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:18:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:04 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:18:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:07 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:18:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:10 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:18:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:13 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:18:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:16 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:18:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:19 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:18:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:22 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:18:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:25 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:18:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:28 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:18:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:31 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:18:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:18:34 +0200: Value '50.5' OK!
+Tue, 05 Sep 2023 13:18:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:18:34 +0200: Value '45.8' OK!
+Tue, 05 Sep 2023 13:18:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:18:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:34 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:18:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:37 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:18:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:40 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:18:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:43 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:18:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:46 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:18:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:49 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:18:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:52 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:18:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:55 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:18:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:18:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:18:58 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:18:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:01 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:19:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:04 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:19:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:19:07 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:19:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:19:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:07 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:19:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:10 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:19:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:13 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:19:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:16 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:19:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:19 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:19:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:22 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:19:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:25 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:19:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:29 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:29 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:19:29 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:32 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:32 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:19:32 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:35 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:35 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:19:35 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:38 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:38 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:19:38 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:41 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:19:41 +0200: Value '24.4' OK!
+Tue, 05 Sep 2023 13:19:41 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:19:41 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:19:41 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:19:41 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:41 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:19:41 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:44 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:44 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:19:44 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:47 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:47 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:19:47 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:50 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:50 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:19:50 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:53 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:53 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:19:53 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:56 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:56 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:19:56 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:19:59 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:19:59 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:19:59 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:20:02 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:20:02 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:20:02 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:20:05 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:20:05 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:20:05 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:20:08 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:20:08 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:20:08 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:20:11 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:20:11 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:20:11 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:20:14 +0200: DONE ...
+Tue, 05 Sep 2023 13:20:14 +0200: --------
+Tue, 05 Sep 2023 13:21:02 +0200: STARTING ...
+Tue, 05 Sep 2023 13:21:02 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:21:02 +0200: Value '54.9' OK!
+Tue, 05 Sep 2023 13:21:02 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:21:02 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:02 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:21:02 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:05 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:05 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:21:05 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:08 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:08 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:21:08 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:11 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:11 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:21:11 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:14 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:14 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:21:14 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:17 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:17 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:21:17 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:20 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:20 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:21:20 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:23 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:23 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:21:23 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:26 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:26 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:21:26 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:29 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:29 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:21:29 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:32 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:32 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:21:32 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:35 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:21:35 +0200: Value '51.1' OK!
+Tue, 05 Sep 2023 13:21:35 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:21:35 +0200: Value '46.7' OK!
+Tue, 05 Sep 2023 13:21:35 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:21:35 +0200: Value '63' OK!
+Tue, 05 Sep 2023 13:21:35 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:21:35 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:21:35 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:21:35 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:35 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:21:35 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:38 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:38 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:21:38 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:41 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:41 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:21:41 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:44 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:44 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:21:44 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:47 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:47 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:21:47 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:50 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:50 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:21:50 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:53 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:53 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:21:53 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:56 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:56 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:21:56 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:21:59 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:21:59 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:21:59 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:22:02 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:22:02 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:22:02 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:22:05 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:22:05 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:22:05 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:22:08 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:22:08 +0200: Value '24.4' OK!
+Tue, 05 Sep 2023 13:22:08 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:22:08 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:22:08 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:22:08 +0200: Value '25.97' OK!
+Tue, 05 Sep 2023 13:22:08 +0200: DONE ...
+Tue, 05 Sep 2023 13:22:08 +0200: --------
+Tue, 05 Sep 2023 13:24:02 +0200: STARTING ...
+Tue, 05 Sep 2023 13:24:02 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:24:02 +0200: Value '54.9' OK!
+Tue, 05 Sep 2023 13:24:02 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:24:02 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:02 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:24:02 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:05 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:05 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:24:05 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:08 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:08 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:24:08 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:11 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:11 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:24:11 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:14 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:14 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:24:14 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:17 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:17 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:24:17 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:20 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:20 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:24:20 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:23 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:23 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:24:23 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:26 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:26 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:24:26 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:29 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:29 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:24:29 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:32 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:32 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:24:32 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:35 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:24:35 +0200: Value '51.1' OK!
+Tue, 05 Sep 2023 13:24:35 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:24:35 +0200: Value '46.7' OK!
+Tue, 05 Sep 2023 13:24:35 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:24:35 +0200: Value '63' OK!
+Tue, 05 Sep 2023 13:24:35 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:24:35 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:24:35 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:24:35 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:35 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:24:35 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:38 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:38 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:24:38 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:41 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:41 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:24:41 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:44 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:44 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:24:44 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:47 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:47 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:24:47 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:50 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:50 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:24:50 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:53 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:53 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:24:53 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:56 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:56 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:24:56 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:24:59 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:24:59 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:24:59 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:25:02 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:25:02 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:25:02 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:25:05 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:25:05 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:25:05 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:25:08 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:25:08 +0200: Value '24.4' OK!
+Tue, 05 Sep 2023 13:25:08 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:25:08 +0200: Value '24.2' OK!
+Tue, 05 Sep 2023 13:25:08 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:25:08 +0200: Value '25.97' OK!
+Tue, 05 Sep 2023 13:25:08 +0200: DONE ...
+Tue, 05 Sep 2023 13:25:08 +0200: --------
+Tue, 05 Sep 2023 13:27:01 +0200: STARTING ...
+Tue, 05 Sep 2023 13:27:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:27:01 +0200: Value '54.6' OK!
+Tue, 05 Sep 2023 13:27:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:27:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:01 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:27:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:04 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:27:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:07 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:27:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:10 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:27:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:13 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:27:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:16 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:27:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:19 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:27:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:22 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:27:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:25 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:27:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:28 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:27:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:31 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:27:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:27:34 +0200: Value '51.0' OK!
+Tue, 05 Sep 2023 13:27:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:27:34 +0200: Value '45.9' OK!
+Tue, 05 Sep 2023 13:27:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:27:34 +0200: Value '60' OK!
+Tue, 05 Sep 2023 13:27:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:27:34 +0200: Value '24.3' OK!
+Tue, 05 Sep 2023 13:27:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:27:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:34 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:27:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:37 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:27:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:40 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:27:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:43 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:27:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:46 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:27:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:49 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:27:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:52 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:27:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:55 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:27:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:27:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:27:58 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:27:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:28:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:28:01 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:28:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:28:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:28:04 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:28:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:28:07 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:28:07 +0200: Value '24.4' OK!
+Tue, 05 Sep 2023 13:28:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:28:07 +0200: Value '24.3' OK!
+Tue, 05 Sep 2023 13:28:07 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:28:07 +0200: Value '25.93' OK!
+Tue, 05 Sep 2023 13:28:08 +0200: DONE ...
+Tue, 05 Sep 2023 13:28:08 +0200: --------
+Tue, 05 Sep 2023 13:30:01 +0200: STARTING ...
+Tue, 05 Sep 2023 13:30:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y1-g.rrd
+Tue, 05 Sep 2023 13:30:01 +0200: Value '54.6' OK!
+Tue, 05 Sep 2023 13:30:01 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y1-g.rrd
+Tue, 05 Sep 2023 13:30:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:01 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:30:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:04 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:30:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:07 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:07 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:30:07 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:10 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:10 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:30:10 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:13 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:13 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:30:13 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:16 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:16 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:30:16 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:19 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:19 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:30:19 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:22 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:22 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:30:22 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:25 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:25 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:30:25 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:28 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:28 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:30:28 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:31 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:31 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:30:31 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y1-g.rrd
+Tue, 05 Sep 2023 13:30:34 +0200: Value '49.3' OK!
+Tue, 05 Sep 2023 13:30:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y1-g.rrd
+Tue, 05 Sep 2023 13:30:34 +0200: Value '45.9' OK!
+Tue, 05 Sep 2023 13:30:34 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y1-g.rrd
+Tue, 05 Sep 2023 13:30:34 +0200: Value '61' OK!
+Tue, 05 Sep 2023 13:30:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia-y2-g.rrd
+Tue, 05 Sep 2023 13:30:34 +0200: Value '24.3' OK!
+Tue, 05 Sep 2023 13:30:34 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia2-y2-g.rrd
+Tue, 05 Sep 2023 13:30:34 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:34 +0200: Tries left: 10
+Tue, 05 Sep 2023 13:30:34 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:37 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:37 +0200: Tries left: 9
+Tue, 05 Sep 2023 13:30:37 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:40 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:40 +0200: Tries left: 8
+Tue, 05 Sep 2023 13:30:40 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:43 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:43 +0200: Tries left: 7
+Tue, 05 Sep 2023 13:30:43 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:46 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:46 +0200: Tries left: 6
+Tue, 05 Sep 2023 13:30:46 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:49 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:49 +0200: Tries left: 5
+Tue, 05 Sep 2023 13:30:49 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:52 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:52 +0200: Tries left: 4
+Tue, 05 Sep 2023 13:30:52 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:55 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:55 +0200: Tries left: 3
+Tue, 05 Sep 2023 13:30:55 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:30:58 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:30:58 +0200: Tries left: 2
+Tue, 05 Sep 2023 13:30:58 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:31:01 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:31:01 +0200: Tries left: 1
+Tue, 05 Sep 2023 13:31:01 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:31:04 +0200: Value 'U' not numeric!
+Tue, 05 Sep 2023 13:31:04 +0200: Tries left: 0
+Tue, 05 Sep 2023 13:31:04 +0200: Sleeping ...
+Tue, 05 Sep 2023 13:31:07 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia4-y2-g.rrd
+Tue, 05 Sep 2023 13:31:07 +0200: Value '24.4' OK!
+Tue, 05 Sep 2023 13:31:07 +0200: Command: rrdtool lastupdate /var/lib/munin/shuttle2/shuttle2-mijia3-y2-g.rrd
+Tue, 05 Sep 2023 13:31:07 +0200: Value '24.3' OK!
+Tue, 05 Sep 2023 13:31:07 +0200: Command: rrdtool lastupdate /var/lib/munin/zero/zero-mijia5-y2-g.rrd
+Tue, 05 Sep 2023 13:31:07 +0200: Value '25.9' OK!
+Tue, 05 Sep 2023 13:31:08 +0200: DONE ...
+Tue, 05 Sep 2023 13:31:08 +0200: --------

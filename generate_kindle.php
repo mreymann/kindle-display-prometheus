@@ -2,64 +2,113 @@
 <?php
 $log = false;
 
-# SENSOR: MIJIA
-$hum_rrds = [	'/var/lib/munin/shuttle/shuttle-mijia-y1-g.rrd',	# living room
-		'/var/lib/munin/shuttle/shuttle-mijia2-y1-g.rrd',	# bedroom
-		'/var/lib/munin/zero/zero-mijia4-y1-g.rrd',		# guest room
-		'/var/lib/munin/shuttle/shuttle-mijia3-y1-g.rrd'	# balcony
-];
+date_default_timezone_set( 'Europe/Berlin' );
 
-$tmp_rrds = [	'/var/lib/munin/shuttle/shuttle-mijia-y2-g.rrd',	# living room
-		'/var/lib/munin/shuttle/shuttle-mijia2-y2-g.rrd',	# bedroom
-		'/var/lib/munin/zero/zero-mijia4-y2-g.rrd',		# guest room
-		'/var/lib/munin/shuttle/shuttle-mijia3-y2-g.rrd'	# balcony
-];
+# prometheus
+$sensors = [ 'bedroom', 'guestroom', 'livingroom', 'balcony', 'bathroom' ];
+$metrics = [ 'temperature', 'humidity' ];
+$base_url = 'http://grafana:9090/api/v1';
 
-$h = get_last( $hum_rrds );
-$t = get_last( $tmp_rrds );
+mylog( 'STARTING ...' );
+
+$v = get_last();
 
 # SENSOR: KINDLE BATTERY
-$batt = shell_exec("ssh -q root@192.168.178.25 'cat /sys/devices/system/yoshi_battery/yoshi_battery0/battery_capacity' | tr -d -c 0-9") . '%';
+$batt = shell_exec("ssh -q kindle 'cat /sys/devices/system/yoshi_battery/yoshi_battery0/battery_capacity' | tr -d -c 0-9") . '%';
 
 # OTHER VALUES
-$tmpX = "n/a";
+#$tmpX = $t[4] . " C"; # bathroom
 $date = date( "r" );
 
 $svg = file_get_contents( "kindle_template.svg" );
 
+# A = livingroom tmp
+# B = livingroom hum
+# C = bedroom tmp
+# D = bedroom hum
+# E = guestroom tmp
+# F = guestroom hum
+# G = balcony tmp
+# H = balcony hum
+
 # replace placeholders
 $find = [ '|%A|', '|%B|', '|%C|', '|%D|', '|%E|', '|%F|', '|%G|', '|%H|', '|%Q|', '|%R|', '|%S|' ];
-$repl = [ $t[0],  $h[0],  $t[1],  $h[1],  $t[2],  $h[2],  $t[3],  $h[3],  $batt,  $tmpX,  $date  ]; 
+#$repl = [ $t[0],  $h[0],  $t[1],  $h[1],  $t[2],  $h[2],  $t[3],  $h[3],  $batt,  $tmpX,  $date  ]; 
+$repl = [ $v["livingroom_temperature"], $v["livingroom_humidity"],  $v["bedroom_temperature"],  $v["bedroom_humidity"],  $v["guestroom_temperature"],  $v["guestroom_humidity"],  $v["balcony_temperature"],  $v["balcony_humidity"],  $batt,  $v["bathroom_temperature"] . " °C",  $date  ]; 
 
-# replace links to rrdgraphs
-$find[] = '|xlink:href="h(\d)\.png"|';
-$repl[] = 'xlink:href="file:///home/pigpen/kindle/h$1.svg"';
-$find[] = '|xlink:href="t(\d)\.png"|';
-$repl[] = 'xlink:href="file:///home/pigpen/kindle/t$1.svg"';
+/*
+chart-balcony-humidity.svg
+chart-balcony-temperature.svg
+chart-bathroom-humidity.svg
+chart-bathroom-temperature.svg
+chart-bedroom-humidity.svg
+chart-bedroom-temperature.svg
+chart-guestroom-humidity.svg
+chart-guestroom-temperature.svg
+chart-livingroom-humidity.svg
+chart-livingroom-temperature.svg
+ */
+
+# replace links to SVG charts
+$find[] = '|xlink:href="t1\.png"|';
+$repl[] = 'xlink:href="file:///home/pigpen/kindle/chart-livingroom-temperature.svg"';
+$find[] = '|xlink:href="h1\.png"|';
+$repl[] = 'xlink:href="file:///home/pigpen/kindle/chart-livingroom-humidity.svg"';
+
+$find[] = '|xlink:href="t2\.png"|';
+$repl[] = 'xlink:href="file:///home/pigpen/kindle/chart-bedroom-temperature.svg"';
+$find[] = '|xlink:href="h2\.png"|';
+$repl[] = 'xlink:href="file:///home/pigpen/kindle/chart-bedroom-humidity.svg"';
+
+$find[] = '|xlink:href="t3\.png"|';
+$repl[] = 'xlink:href="file:///home/pigpen/kindle/chart-guestroom-temperature.svg"';
+$find[] = '|xlink:href="h3\.png"|';
+$repl[] = 'xlink:href="file:///home/pigpen/kindle/chart-guestroom-humidity.svg"';
+
+$find[] = '|xlink:href="t4\.png"|';
+$repl[] = 'xlink:href="file:///home/pigpen/kindle/chart-balcony-temperature.svg"';
+$find[] = '|xlink:href="h4\.png"|';
+$repl[] = 'xlink:href="file:///home/pigpen/kindle/chart-balcony-humidity.svg"';
 
 $out = preg_replace( $find, $repl, $svg );
 file_put_contents("kindle.svg", $out);
+mylog( 'DONE ...' );
+mylog( '--------' );
 
 # ---------- only functions past this point ----------
 
-function get_last( $rrds ) {
-	$last = [];
-	foreach ( $rrds as $rrd ) {
-		$cmd = "rrdtool lastupdate $rrd";
-		$out = shell_exec( $cmd );
-		if ( $out === NULL ) mylog( "NULL returned by command '$cmd'" );
-		preg_match_all( '|(\d+): (.*)|', $out, $matches );
-		if ( is_numeric( $matches[2][0] ) ) {
-			$last[] = str_pad( round( $matches[2][0] ), 2, " ", STR_PAD_LEFT );
-		}
-		else {
-			mylog( "Command: $cmd" );
-			mylog( 'Value not numeric! Raw output:' );
-			mylog( "'$out'" );
-			$last[] = ' -';
+function get_last() {
+	global $sensors, $metrics, $base_url;
+	$vals = [];
+	foreach ( $sensors as $sensor ) {
+		foreach ( $metrics as $metric ) {
+			#$url_latest = "$base_url/query?query=sensor_$metric{name=\"$sensor\"}";
+			# try not to return null using last_over_time()
+			$url_latest = "$base_url/query?query=last_over_time(sensor_$metric{name=\"$sensor\"}[10m])";
+			$json = getJSONfromURL( $url_latest );
+			$aValues = $json["data"]["result"][0]["value"];
+			$ts = $aValues[0];
+			$date = gmdate( "Y-m-d\TH:i:s\Z", $ts );
+			$value = $aValues[1];
+			#echo "$sensor ($metric): date (UTC): $date, value: $value\n";
+			$vals["${sensor}_${metric}"] = round( $value );
 		}
 	}
-	return $last;
+	return $vals;
+}
+
+function getJSONfromURL( $url ) {
+	#echo "URL: $url\n";
+	$result = file_get_contents( $url );
+	#echo "$result\n";
+	$json = (json_decode($result, true));
+	#var_dump( $json ); return;
+	if ( $json["status"] == "success") {
+		return $json;
+	}
+	else {
+		return false;
+	}
 }
 
 function mylog( $msg ) {
