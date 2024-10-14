@@ -89,9 +89,11 @@ function get_last() {
 			$aValues = $json["data"]["result"][0]["value"];
 			$ts = $aValues[0];
 			$date = gmdate( "Y-m-d\TH:i:s\Z", $ts );
-			$value = $aValues[1];
+			$raw_value = $aValues[1];
+			$value = round( $raw_value );
+			if ( strlen( $value ) == 1 ) $value = " $value";
 			#echo "$sensor ($metric): date (UTC): $date, value: $value\n";
-			$vals["${sensor}_${metric}"] = round( $value );
+			$vals["${sensor}_${metric}"] = $value;
 		}
 	}
 	return $vals;

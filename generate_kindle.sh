@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 # generate SVG charts from Prometheus data
 ./generate_charts.php
 
-# replace markers with current values
+# replace markers in SVG template with current values
 ./generate_kindle.php
 
 # convert the SVG to PNG
