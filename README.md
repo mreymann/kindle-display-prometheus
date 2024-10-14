@@ -17,4 +17,4 @@ I generate a new picture every few minutes via cron:
 ## Example
 ![Kindle Example](https://github.com/mreymann/kindle-display-munin/blob/master/example.png)
 
-The graphs show the changes over the last 3 hours.
+The graphs show the changes over the last 3 hours. Arrows indicate quick changes in values.
