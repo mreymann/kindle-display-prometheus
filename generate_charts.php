@@ -5,14 +5,15 @@ date_default_timezone_set( 'Europe/Berlin' );
 require_once 'SVGGraph/autoloader.php'; # draw SVG charts
 require_once __DIR__ . '/php-svg/autoloader.php'; # merge SVG files
 use SVG\SVG;
+use SVG\Nodes\Structures\SVGGroup;
 $sensors = [ 'bedroom', 'guestroom', 'livingroom', 'balcony', 'bathroom' ];
 $metrics = [ 'temperature', 'humidity' ];
 #$sensors = [ 'balcony' ];
 #$metrics = [ 'temperature' ];
 $hours = 3;
 $step = 300; # resolution in seconds
-$trend_latest_count = 4;  # number of latest values to calculate trend from
-$trend_threshold = 0.001 ; # if slope is greater than this, draw an arrow
+$trend_latest_count = 6;  # number of latest values to calculate trend from
+$trend_threshold = 0.00035 ; # if slope is greater than this, draw an arrow
 $base_url = 'http://grafana:9090/api/v1';
 $end = time();
 $start = $end - ( 3600 * $hours );
@@ -39,8 +40,8 @@ foreach ( $sensors as $sensor ) {
 		$start_time = $x_trend_values[0];
 		$time_in_seconds = array_map( function( $ts ) use ( $start_time ) {
 			return ( $ts - $start_time ); }, $x_trend_values );
-		#var_dump( $time_in_seconds );
-		#var_dump( $y_trend_values );
+		var_dump( $time_in_seconds );
+		var_dump( $y_trend_values );
 
 		list( $m, $b ) = linearRegression( $time_in_seconds, $y_trend_values );
 		$m = round( $m, 4 );
@@ -56,11 +57,14 @@ foreach ( $sensors as $sensor ) {
 		if ( abs( $m ) > $trend_threshold ) {
 			echo "steep slope detected! drawing an arrow!\n";
 			$arrow_file = ( $m < 0 ) ? "arrow-down.svg" : "arrow-up.svg"; 
-			$svg = SVG::fromString( $svg );
+			$svg = SVG::fromString($svg);
 			$doc = $svg->getDocument();
-			$arrow = SVG::fromFile( $arrow_file );
+			$arrow = SVG::fromFile($arrow_file);
 			$doc2 = $arrow->getDocument();
-			$doc->addChild( $doc2 );
+			$group = new SVGGroup();
+			$group->setAttribute('transform', 'translate(84, 8)');
+			$group->addChild($doc2);
+			$doc->addChild($group);
 		}
 		$svgfile = "chart-$sensor-$metric.svg";
 		file_put_contents( $svgfile, $svg );
@@ -78,6 +82,7 @@ function renderSVG( $values ) {
 	  'axis_colour' => '#333',
 	  #'axis_overlap' => 2,
 	  'grid_colour' => '#666',
+	  'grid_division_v' => 1,
 	  'label_colour' => '#000',
 	  'axis_font' => 'Arial',
 	  'axis_font_size' => 10,
