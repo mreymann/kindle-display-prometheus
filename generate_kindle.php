@@ -18,7 +18,8 @@ $batt = shell_exec("ssh -q kindle 'cat /sys/devices/system/yoshi_battery/yoshi_b
 
 # OTHER VALUES
 #$tmpX = $t[4] . " C"; # bathroom
-$date = date( "r" );
+#$date = date( "r" );
+$date = date( 'd.m.Y H:i:s' );
 
 $svg = file_get_contents( "kindle_template.svg" );
 
@@ -32,9 +33,9 @@ $svg = file_get_contents( "kindle_template.svg" );
 # H = balcony hum
 
 # replace placeholders
-$find = [ '|%A|', '|%B|', '|%C|', '|%D|', '|%E|', '|%F|', '|%G|', '|%H|', '|%Q|', '|%R|', '|%S|' ];
+$find = [ '|%A|', '|%B|', '|%C|', '|%D|', '|%E|', '|%F|', '|%G|', '|%H|', '|%Q|', '|%R|', '|%S|', '|%T|' ];
 #$repl = [ $t[0],  $h[0],  $t[1],  $h[1],  $t[2],  $h[2],  $t[3],  $h[3],  $batt,  $tmpX,  $date  ]; 
-$repl = [ $v["livingroom_temperature"], $v["livingroom_humidity"],  $v["bedroom_temperature"],  $v["bedroom_humidity"],  $v["guestroom_temperature"],  $v["guestroom_humidity"],  $v["balcony_temperature"],  $v["balcony_humidity"],  $batt,  $v["bathroom_temperature"] . " °C",  $date  ]; 
+$repl = [ $v["livingroom_temperature"], $v["livingroom_humidity"],  $v["bedroom_temperature"],  $v["bedroom_humidity"],  $v["guestroom_temperature"],  $v["guestroom_humidity"],  $v["balcony_temperature"],  $v["balcony_humidity"],  $batt,  $v["bathroom_temperature"] . " °C",  $v["bathroom_humidity"] . " %", $date ]; 
 
 /*
 chart-balcony-humidity.svg

@@ -12,7 +12,7 @@ $metrics = [ 'temperature', 'humidity' ];
 #$metrics = [ 'temperature' ];
 $hours = 3;
 $step = 300; # resolution in seconds
-$trend_latest_count = 6;  # number of latest values to calculate trend from
+$trend_latest_count = 5;  # number of latest values to calculate trend from
 $trend_threshold = 0.00035 ; # if slope is greater than this, draw an arrow
 $base_url = 'http://grafana:9090/api/v1';
 $end = time();
@@ -35,15 +35,17 @@ foreach ( $sensors as $sensor ) {
 		$trend_values = array_slice( $values, -$trend_latest_count, $trend_latest_count, true );
 		$x_trend_values = array_keys( $trend_values );
 		$y_trend_values = array_values( $trend_values );
+		$first_trend_timestamp = $x_trend_values[0];
+		echo "first_trend_timestamp: $first_trend_timestamp (" . date( "Y-m-d\TH:i:s\Z", $first_trend_timestamp ) . ")\n";
 
 		# Ersten Timestamp als Basis verwenden und Differenz in Sekunden berechnen
 		$start_time = $x_trend_values[0];
-		$time_in_seconds = array_map( function( $ts ) use ( $start_time ) {
+		$times_from_zero = array_map( function( $ts ) use ( $start_time ) {
 			return ( $ts - $start_time ); }, $x_trend_values );
-		var_dump( $time_in_seconds );
+		var_dump( $times_from_zero );
 		var_dump( $y_trend_values );
 
-		list( $m, $b ) = linearRegression( $time_in_seconds, $y_trend_values );
+		list( $m, $b ) = linearRegression( $times_from_zero, $y_trend_values );
 		$m = round( $m, 4 );
 
 		echo "slope (m): " . $m . "\n";
@@ -53,6 +55,8 @@ foreach ( $sensors as $sensor ) {
 		$y_values_min = min( array_values( $values ) ); # get min value
 		$values = array_map( function( $y_val ) use ( $y_values_min ) {
 			return ( $y_val - $y_values_min ); }, $values ); # rebase to min
+		#echo "values:\n";
+		#var_dump(  $values );
 		$svg = renderSVG( $values );
 		if ( abs( $m ) > $trend_threshold ) {
 			echo "steep slope detected! drawing an arrow!\n";
@@ -73,7 +77,13 @@ foreach ( $sensors as $sensor ) {
 
 
 function renderSVG( $values ) {
+	global $first_trend_timestamp;
 	$settings = [
+	  'guideline' => [
+	       	[ $first_trend_timestamp, NULL, 'x', 'stroke_width' => 3, 'colour' => 'white' ],
+	  ],
+	  'guideline_above' => true,
+	  'guideline_dash' => "5,5",
 	  'auto_fit' => false,    # auto fit on page
 	  'back_colour' => '#eee',
 	  'back_stroke_width' => 0,
